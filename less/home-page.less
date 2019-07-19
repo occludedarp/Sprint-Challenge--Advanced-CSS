@@ -3,13 +3,17 @@
 .home {
 
   .intro {
+    
+    img{
+      border-radius:5px;
+    }
 
     h2 {
-      padding: 15px;
+      .headerPadding()
     }
 
     p {
-      padding:0 15px;
+      .headerPadding()
     }
   
   }
@@ -58,6 +62,8 @@
       }
 
       .btn {
+        .signUpButton(@river-bend, 2rem, white);
+
       }
     }
 
