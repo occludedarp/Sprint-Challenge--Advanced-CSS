@@ -10,6 +10,7 @@
     
     img{
       border-radius:5px;
+      margin-top: 108px;
 
       @media @phone{
         max-width: 100%;
@@ -40,16 +41,44 @@
     }
 
     .blast{
+
+
+      &:hover{
+        animation: scale-up 2s;
+      }
+
+      @keyframes scale-up {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+            transform: scale(1.5);
+          }
+        75% {
+            transform: scale(1);
+          }
+        100% {
+            transform: scale(1);
+          }
+      }
+
       @media @phone{
         width: 100%;
       }
     }
 
-    .sky, .launch{
+    .sky {
+
       @media @phone{
         display: none;
       }
+    }
 
+    .launch{
+
+      @media @phone{
+        display: none;
+      }
     }
 
   }

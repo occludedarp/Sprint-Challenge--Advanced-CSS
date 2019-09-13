@@ -165,6 +165,9 @@ p {
   justify-content: center;
   flex-direction: column;
   background: #dee2e6;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
 }
 .navigation h1 {
   font-size: 4rem;
@@ -203,6 +206,7 @@ footer {
 }
 .home .intro img {
   border-radius: 5px;
+  margin-top: 108px;
 }
 @media (max-width: 500px) {
   .home .intro img {
@@ -226,13 +230,34 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+.home .space-images .blast:hover {
+  animation: scale-up 2s;
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width: 500px) {
   .home .space-images .blast {
     width: 100%;
   }
 }
 @media (max-width: 500px) {
-  .home .space-images .sky,
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
   .home .space-images .launch {
     display: none;
   }
