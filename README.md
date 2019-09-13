@@ -32,15 +32,37 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
+
 1. What is the difference between an adaptive website and a fully responsive website?
+
+
+adaptive layouts allow a website features to scale to a limited set of device viewing parameters by employing a limited set of breakpoints. Responsive layouts are more accessible and also ideal because they utilize breakpoints and other methods more effectively to make their content easier to interact on a larger variety of devices.
+
 
 2. Describe what it means to be mobile first vs desktop first.
 
+
+mobile first assumes the primary viewing method will be on a mobile device- this assumption informs its core design and accomodations for larger viewing platforms are made by making adjustments to the core design. desktop first assumes that the primary viewing method will be from desktop platforms - and so its initial design is suited for desktp and any accomodations for viewing from smaller devices will be made as adjustments to the initial design.
+
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+
+it converts the default font size of most browsers (16px) to a base of 10px so that any subsequent declarations of font sizes in the CSS file are more easily calculable when assigining font sizes to certain sections of the web page.
+
 
 4. How would you describe preprocessing to someone new to CSS?
 
+
+you can now write CSS in a way that will accomplish greater results with much less typing - whereas before if you attmepted to match this kind of output with just vanilla CSS your fingers would have likely fallen off halfway through finishing.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+
+how to inform my decisions on what features will need breakpoints and when, which ones to ignore and coming up with different ways to change layout that will make the content more readable/accessible.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
